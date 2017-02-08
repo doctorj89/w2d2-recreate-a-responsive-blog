@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #1560FB;
+    color: white;
+    min-height: 490px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    flex: 1;
+}
+
+.devImage {
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    display: block;
+    margin: auto;
+}
+
+.imageDiv {
+    padding-top: 100px;
+}
+
+.underImage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.ownerDescription {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.sendEmail {
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 50px;
+    display: block;
+}
+
+.headerFooter {
+    display: flex;
+}
+
+.headerFooterColumn {
+    flex: 1;
+}
+
+.madeIn {
+    margin-left: 2%;
+    text-align: left;
+}
+
+.links {
+    margin-right: 2%;
+    text-align: right; 
+}
+
+.headlines {
+    color: blue;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.leftPadding {
+    padding-left: 5%;
+}
+
+.aboutMeListItem {
+    margin-bottom: 10px;
+}
+
+.fa-arrow-right {
+    margin-left: 20px;
+    color: blue;
+}
+
+.whiteArrow {
+    color: white;
+}
+
+.experienceRow {
+    flex-direction: row
+}
+
+.experienceTitle {
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.experienceYear {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.experienceDescription {
+    margin-top: 1%;
+}
+
+.viewResume {
+    margin-top: 10%;
+}
+
+@media screen and (min-width: 767px) {
+header {
+    min-height: 100%;
+}
+
+.mainRow {
+    display: flex;
+}
+.mainColumn {
+    flex: 1;
+}
+
+.sendEmail {
+    width: 50%;
+}
+}
+
+@media screen and (min-width: 1000px) {
+    .sectionRow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sectionHeader {
+        flex: 1;
+        /*background-color: orange;*/
+        line-height: 1;
+        white-space: nowrap;
+}
+
+    .sectionContent {
+        flex: 6;
+        margin-top: 20px;
+        margin-left: 0px;
+        /*background-color: red;*/
+    }
+
+    .aboutMeList {
+        flex: 3;
+    }
+
+    /*.experienceRow {
+        flex-direction: row;
+    }*/
+}
